@@ -1,3 +1,7 @@
+package testFlord;
+import java.util.Scanner;
+
+
 public class test01 {
     public static void main(String[] args) {
         System.out.println("hello");
@@ -51,10 +55,40 @@ public class test01 {
         int i = 1;
         i = i++;
         System.out.println(i);
+        // post-increment has given priority over the assignment and x++ increments but returns old value
+        
+        System.out.println();
 
+        // Scanner myScanner = new Scanner(System.in);
+        // System.out.println("pls input name");
 
+        // String name = myScanner.nextLine();
 
+        i = -1024;
+        System.out.println((i));
+        i = i >>> 2;
+        System.out.println((i));
 
+        switch(i){
+            case 1:
+            System.out.println("1");
+            break;
+            case 2:
+            System.out.println("2");
+            break;
+        }
+
+        for (int k=1;k<100;k++){
+            System.out.println(k);
+        }
+
+        int k=1;
+        while(k<100){
+            System.out.println(k);
+            k++;
+        }
+
+        
 
 
     }
